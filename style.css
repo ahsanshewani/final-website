@@ -1,0 +1,182 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:#e9e9e9;
+    text-align: center;
+    padding-top: 10px;
+    
+    
+    
+
+    
+}
+.logo{
+    width: 50%;
+    float: left;
+    background-color:#e9e9e9;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 5px;
+    
+    
+    
+}
+.logo > span{
+    color:#e51b1f;
+
+    
+    float: right;
+    font-size: 50px;
+padding-right: 300px;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 2px #000;
+    
+    
+
+}
+.navbar {
+    
+}
+.nav-link{
+    color: white!important;
+    font-weight: bold;
+
+}
+
+
+.ticker{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+    .introduc{
+        text-align: center;
+        color:#e51b1f ;
+        text-shadow: 1px 1px 1px #000;
+      
+    }
+.int{
+        margin-right: 100px ;
+        margin-left: 100px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-top: 20px;
+        line-height: 30px;
+        text-align: justify;
+        font-size: 15px;
+     
+    }
+.main1{
+    text-align: center;
+    background-color:#e9e9e9 ;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    
+}
+.head{
+    text-align: center;
+    color:#e51b1f ;
+    text-shadow: 1px 1px 1px #000;
+    padding-bottom: 50px;
+}
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.card{
+    width: 230px;
+    height: 330px;
+    margin: auto;
+
+}
+.card-text{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-primary{
+    width: 100%;
+    background-color: #e51b1f !important;
+}
+.contanar{
+    background-color:#e9e9e9 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ .caro{
+     width: 60%;
+     margin: 0 auto;
+     background-color:#e9e9e9 !important;
+ }   
+.page-footer{
+    background-color: #3e4551;
+    
+    
+}
+.container{
+    color: white;
+}
+.font{
+    color: white;
+}
+.footer-copyright{
+    color: white;
+    font-size: 12px;
+}
+&reg{
+font-size: 10px;
+}
+
+}
+@media screen and (max-width:760px){
+    .card{
+     -top: 20px!important;
+     margin: auto!important  ;
+    }
+}
+@media screen and (max-width:760px){
+    .main1 > p{
+        font-size: 12px!important;
+    }
+}
+@media screen and (max-width:760px){
+    .logo > span{
+        font-size: 30px!important;
+    }
+}
+@media screen and (max-width:760px){
+    .logo > img{ width: 80px!important;
+        height: 50px!important;
+        
+    }
+}
+@media screen and (max-width:760px){
+    .header{
+        height: 70px!important;
+    }
+}
+@media screen and (max-width:760px){
+    .introduc > h3 {
+        font-size: 20px!important;
+
+    }
+}
+@media screen and (max-width:760px){
+    .main1> img{
+        width: 50px!important;
+        height: 30px!important;
+    }
+}
+@media screen and (max-width:760px){
+    .head > h3{ font-size: 20px!important;
+    }
+}
+@media screen and (max-width:760px){
+    .head > img{ width: 50px!important;
+        height: 30px!important;
+
+    
+    }
+}
